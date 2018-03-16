@@ -1,13 +1,13 @@
 package org.blog.sampath.dto;
 
-import javax.persistence.Entity;
+import javax.persistence.Entity; 
 
-@Entity
+@Entity				
 public class UserDetails {
 
-	private int userId;
-	private String userName;
-	public int getUserId() {
+	private int userId;				// id 
+	private String userName;  
+	public int getUserId() {  
 		return userId;
 	}
 	public void setUserId(int userId) {
