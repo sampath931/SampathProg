@@ -11,6 +11,9 @@ public class StockFileData {
 	
 	public void printData(){
 		System.out.println(data);
+		System.out.println("Hareesh");
+		System.out.println("Sandeep");
+		
 	}
 	
 	public void addData(List<HashMap<String, Double>> dataIn){
