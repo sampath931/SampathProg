@@ -11,10 +11,11 @@ public class StockFileData {
 	
 	public void printData(){
 		System.out.println(data);
+		System.out.println("Hello");
 	}
 	
 	public void addData(List<HashMap<String, Double>> dataIn){
 		data = dataIn;
 	}
 
-}
+} 
