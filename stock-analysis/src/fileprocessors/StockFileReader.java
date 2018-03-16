@@ -35,6 +35,7 @@ public class StockFileReader {
 		List<String> lines = new ArrayList<String>();
 		try(BufferedReader br = new BufferedReader(new FileReader(filePath))){
 			// Skip first line
+			// Skip next line
 			br.readLine();
 			String line = null;
 			//Advance from the second line onwards
